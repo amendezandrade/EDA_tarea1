@@ -1,5 +1,5 @@
-/*
- * To change this template, choose Tools | Templates
+﻿/*
+ * TAREA 1 | Templates
  * and open the template in the editor.
  */
 
@@ -121,7 +121,7 @@ public class ArraySet<T> implements SetADT<T> {
 
         if(size()==set.size()) {
             while(it.hasNext()&&contains(it.next()));
-            if(!it.hasNext())
+            if(!it.hasNext( ))
                 result=true;
         }
 
